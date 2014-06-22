@@ -1,7 +1,7 @@
 library("data.table")
 
 # Set NROWS constant to -1 to process all rows in each file, or a positive value for a subset of rows.
-NROWS <- 100
+NROWS <- -1
 
 # Helper function to ensure that each file is read in the same manner, since they all have the same format.
 read.num <- function(f) { read.table(f, colClasses = numeric(), header = FALSE, comment.char = "", nrows = NROWS) }
