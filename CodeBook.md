@@ -13,7 +13,7 @@ dataset, with additional columns added for grouping (subject, activity).
 
 ## Dataset 1
 
-The first dataset is the basis for the rest of the datasets.
+The first dataset is the basis for Dataset 2 and Dataset 3.
 
 This dataset inserts two columns to the left of the combined test and training datasets: 
 subject and activity.  Subject is the numeric value representing each person who
@@ -25,7 +25,7 @@ activity will appear multiple times in Dataset 1.
 The rest of the columns are the measurements for each subject/activity grouping.  For each 
 measurement, a set of variables was calculated.  There are 561 total columns of variables 
 for each measurement in this dataset.  The column names are derived from the features.txt 
-file in the orignal dataset, and descrived in its features_info.txt.
+file in the orignal dataset, and described in its features_info.txt.
 
 The output file for this dataset is _tidy_data1.txt_.
 
